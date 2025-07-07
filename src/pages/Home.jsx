@@ -291,7 +291,7 @@ function Home({ isDark }) {
             transition={{ duration: 0.8, delay: 1.0 }}
           >
             <a
-              href="https://github.com/gauravkrsingh"
+              href="https://github.com/Gauravkumarsingh00"
               target="_blank"
               rel="noopener noreferrer"
               className={`p-3 rounded-full backdrop-blur-sm border transition-all duration-300 hover-scale ${
@@ -305,7 +305,7 @@ function Home({ isDark }) {
               </svg>
             </a>
             <a
-              href="https://linkedin.com/in/gauravkrsingh"
+              href="https://www.linkedin.com/in/gaurav-kumar-s-33a39b210/"
               target="_blank"
               rel="noopener noreferrer"
               className={`p-3 rounded-full backdrop-blur-sm border transition-all duration-300 hover-scale ${
@@ -699,8 +699,6 @@ function Home({ isDark }) {
           </div>
         </div>
       </motionComponents.section>
-
-
     </div>
   );
 }
