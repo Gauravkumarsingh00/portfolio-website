@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
@@ -125,7 +126,7 @@ function Projects({ isDark }) {
       title: 'Personal_Portfolio',
       description:
         'A responsive portfolio website built with React.js and Tailwind CSS, featuring light/dark theme toggle and smooth scrolling animations for enhanced user experience. Deployed on Render to ensure fast and reliable access.',
-      image: '/automation_logo.png',
+      image: '/pp_logo.png',
       url: 'https://portfolio-website-cg7i.onrender.com/',
       tech: ['ReactJs', 'TailwindCSS', 'Render'],
       features: [
