@@ -612,7 +612,7 @@ function About({ isDark = true }) {
                   </span>
                 </button>
                 <button
-                  onClick={() => (window.location.href = '/portfolio')}
+                  onClick={() => (window.location.href = '/')}
                   className={`group px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 backdrop-blur-sm border-2 ${
                     isDark
                       ? 'border-white/20 text-white hover:bg-white/10 hover:border-white/40'

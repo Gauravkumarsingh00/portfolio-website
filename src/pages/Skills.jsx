@@ -531,28 +531,28 @@ const Skills = ({ isDark }) => {
             {[
               {
                 category: 'Backend',
-                count: 8,
+                count: 4,
                 icon: Server,
                 color: 'from-blue-400 to-blue-600',
                 description: 'Server-side development',
               },
               {
                 category: 'Frontend',
-                count: 6,
+                count: 2,
                 icon: Code,
                 color: 'from-green-400 to-green-600',
                 description: 'User interface design',
               },
               {
                 category: 'Database',
-                count: 4,
+                count: 1,
                 icon: Database,
                 color: 'from-orange-400 to-orange-600',
                 description: 'Data management',
               },
               {
                 category: 'DevOps',
-                count: 6,
+                count: 2,
                 icon: Wrench,
                 color: 'from-purple-400 to-purple-600',
                 description: 'Deployment & automation',
