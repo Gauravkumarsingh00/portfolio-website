@@ -111,8 +111,10 @@ function Resume({ isDark }) {
       location: 'New Delhi, India',
       duration: 'December 2024 - May 2025',
       responsibilities: [
-        'Help in managing the CRM and ERP portal for the organization.',
-        'Develop the face recognition system for the organization.',
+        'Developed RESTful APIs using NodeJS and integrated them with MongoDB for a client project.',
+        'Integrated MongoDB for data storage and designed efficient database schemas using Mongoose.',
+        'Collaborated with frontend developers to ensure seamless API integration and data flow.',
+        'Optimized server performance by refactoring code and implementing asynchronous operations using Promises and async/await.',
       ],
     },
   ];
@@ -120,8 +122,8 @@ function Resume({ isDark }) {
   const skills = [
     { name: 'Node.js', level: 80 },
     { name: 'Express.js', level: 80 },
-    { name: 'MongoDB', level: 75 },
-    { name: 'CPP', level: 85 },
+    { name: 'MongoDB', level: 70 },
+    { name: 'CPP', level: 90 },
     { name: 'React.js', level: 50 },
     { name: 'C', level: 70 },
     { name: 'JavaScript', level: 60 },

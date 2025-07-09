@@ -92,7 +92,7 @@ const testimonialVariants = {
 function Home({ isDark }) {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [typedText, setTypedText] = useState('');
-  const fullText = 'Backend Developer & System Architect';
+  const fullText = 'Software Engineer | Full Stack Developer | Tech Enthusiast';
 
   useEffect(() => {
     const handleMouseMove = (e) => {
@@ -116,37 +116,51 @@ function Home({ isDark }) {
   }, []);
 
   const techStack = [
-    { name: 'Node.js', icon: '⚡', level: 90 },
-    { name: 'Express.js', icon: '🚀', level: 85 },
-    { name: 'MongoDB', icon: '🍃', level: 80 },
-    { name: 'React', icon: '⚛️', level: 75 },
-    { name: 'Cpp', icon: '💻', level: 70 },
-    { name: 'C', icon: '🅲', level: 80 },
-    { name: 'Python', icon: '🐍', level: 85 },
-    { name: 'JavaScript', icon: '🟡', level: 70 },
+    { name: 'Node.js', icon: '⚡', level: 80 },
+    { name: 'Express.js', icon: '🚀', level: 80 },
+    { name: 'MongoDB', icon: '🍃', level: 70 },
+    { name: 'React', icon: '⚛️', level: 50 },
+    { name: 'Cpp', icon: '💻', level: 90 },
+    { name: 'C', icon: '🅲', level: 70 },
+    { name: 'Python', icon: '🐍', level: 30 },
+    { name: 'JavaScript', icon: '🟡', level: 60 },
   ];
 
   const projects = [
     {
       title: 'Contact Management System',
       description:
-        'Built a scalable contact management system with Node.js, MongoDB, and Express.js, featuring RESTful APIs and JWT authentication.',
+        'A role-based contact management system built using Node.js, Express.js, and MongoDB. It allows users to create, update, delete, and view contacts with proper authentication and authorization. Ensures data privacy and efficient contact handling through RESTful APIs.',
       image: '/cm_logo.png',
-      url: 'https://example.com/contact-management',
+      url: 'https://github.com/Gauravkumarsingh00/contact_manager',
+    },
+    {
+      title: 'Amazona',
+      description:
+        'A full-featured Amazon-like eCommerce platform developed using the MERN stack (MongoDB, Express.js, React.js, Node.js). Implements a role-based system for admins and users, supporting product browsing, cart management, checkout, and order tracking.',
+      image: '/am_logo.png',
+      url: 'https://github.com/Gauravkumarsingh00/amazona',
+    },
+    {
+      title: 'Personal Portfoio',
+      description:
+        'A responsive portfolio website built with React.js and Tailwind CSS, featuring light/dark theme toggle and smooth scrolling animations for enhanced user experience. Deployed on Render to ensure fast and reliableaccess.Built a scalable contact management system with Node.js, MongoDB, and Express.js, featuring RESTful APIs and JWT authentication.',
+      image: '/cm_logo.png',
+      url: 'https://portfolio-website-cg7i.onrender.com/',
     },
   ];
 
   const testimonials = [
-    {
-      quote:
-        'Gaurav delivered an exceptional backend solution that significantly improved our platform’s performance.',
-      author: 'John Doe, CTO at TechCorp',
-    },
-    {
-      quote:
-        'His expertise in system architecture transformed our application’s scalability and reliability.',
-      author: 'Jane Smith, Product Manager at InnovateX',
-    },
+    // {
+    //   quote:
+    //     'Gaurav delivered an exceptional backend solution that significantly improved our platform’s performance.',
+    //   author: 'John Doe, CTO at TechCorp',
+    // },
+    // {
+    //   quote:
+    //     'His expertise in system architecture transformed our application’s scalability and reliability.',
+    //   author: 'Jane Smith, Product Manager at InnovateX',
+    // },
   ];
 
   return (
@@ -591,7 +605,7 @@ function Home({ isDark }) {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            What Clients Say
+            {/* What Clients Say */}
           </motionComponents.h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {testimonials.map((testimonial, index) => (
@@ -658,7 +672,7 @@ function Home({ isDark }) {
             {[
               { number: '2+', label: 'Projects Completed', icon: '🚀' },
               { number: '1+', label: 'Years Experience', icon: '⚡' },
-              { number: '99%', label: 'Client Satisfaction', icon: '⭐' },
+              { number: '99%', label: 'Project Satisfaction', icon: '⭐' },
             ].map((stat, index) => (
               <motionComponents.div
                 key={stat.label}

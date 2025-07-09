@@ -159,8 +159,10 @@ function About({ isDark = true }) {
       role: 'IT Intern',
       company: 'Invest India',
       description:
-        'Worked on CRM and ERP portal , Develop Face Recognisation System .',
-      achievements: ['Developed a Face Recognition System '],
+        'Developed and maintained RESTful APIs using Node.js, Express.js, and MongoDB, implementing secure authentication and efficient backend logic.',
+      achievements: [
+        'Improved API response time by 30% by optimizing backend queries and middleware logic. ',
+      ],
     },
   ];
 

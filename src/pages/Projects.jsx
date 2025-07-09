@@ -95,7 +95,7 @@ function Projects({ isDark }) {
     {
       title: 'Contact Management System',
       description:
-        'A scalable contact management system built with Node.js, MongoDB, and Express.js, featuring RESTful APIs, JWT authentication, and real-time updates with WebSocket integration.',
+        'A role-based contact management system built using Node.js, Express.js, and MongoDB. It allows users to create, update, delete, and view contacts with proper authentication and authorization. Ensures data privacy and efficient contact handling through RESTful APIs.',
       image: '/cm_logo.png',
       url: 'https://example.com/contact-management',
       tech: ['Node.js', 'MongoDB', 'Express.js', 'JWT', 'WebSocket'],
@@ -108,34 +108,34 @@ function Projects({ isDark }) {
       github: 'https://github.com/gauravkrsingh/contact-management',
     },
     {
-      title: 'E-Commerce Platform',
+      title: 'Amazona',
       description:
-        'A full-stack e-commerce solution with a React frontend, Node.js backend, and MongoDB database, featuring payment integration and inventory management.',
-      image: '/ecommerce_logo.png',
-      url: 'https://example.com/ecommerce',
-      tech: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Redux'],
+        'A full-featured Amazon-like eCommerce platform developed using the MERN stack (MongoDB, Express.js, React.js, Node.js). Implements a role-based system for admins and users, supporting product browsing, cart management, checkout, and order tracking.',
+      image: '/am_logo.png',
+      url: 'https://github.com/Gauravkumarsingh00/amazona',
+      tech: ['React', 'Node.js', 'MongoDB', 'ExpressJs'],
       features: [
         'Responsive React-based UI',
-        'Secure payment processing with Stripe',
         'Real-time inventory updates',
         'User authentication and authorization',
       ],
-      github: 'https://github.com/gauravkrsingh/ecommerce',
+      github: 'https://github.com/Gauravkumarsingh00/amazona',
     },
     {
-      title: 'Task Automation Tool',
+      title: 'Personal_Portfolio',
       description:
-        'A Python-based automation tool for streamlining repetitive tasks, integrated with cloud APIs for enhanced functionality and scalability.',
+        'A responsive portfolio website built with React.js and Tailwind CSS, featuring light/dark theme toggle and smooth scrolling animations for enhanced user experience. Deployed on Render to ensure fast and reliable access.',
       image: '/automation_logo.png',
-      url: 'https://example.com/task-automation',
-      tech: ['Python', 'AWS SDK', 'Docker', 'Redis'],
+      url: 'https://portfolio-website-cg7i.onrender.com/',
+      tech: ['ReactJs', 'TailwindCSS', 'Render'],
       features: [
-        'Automated task scheduling',
-        'Cloud API integration with AWS',
-        'Containerized deployment with Docker',
-        'Redis-based caching for performance',
+        'Built with React.js and Tailwind CSS',
+        'Responsive design for all screen sizes',
+        'Light/Dark theme toggle',
+        'Smooth scrolling animations',
+        'Deployed on Render for fast access',
       ],
-      github: 'https://github.com/gauravkrsingh/task-automation',
+      github: 'https://github.com/Gauravkumarsingh00/portfolio-website',
     },
   ];
 
